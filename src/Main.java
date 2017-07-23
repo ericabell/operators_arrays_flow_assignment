@@ -59,6 +59,13 @@ public class Main {
                 int firstArgMod10 = firstArgument % 10;
                 System.out.println(" * Modulus 10 on first argument.");
                 System.out.println("   " + firstArgument + " mod 10 is: " + firstArgMod10);
+
+            /* compare firstArgument and thirdArgument using less than or equals */
+                int thirdArgument = Integer.parseInt(args[2]);
+                System.out.println(" * Compare first and third args with less than or equal");
+                if( firstArgument <= thirdArgument) {
+                    System.out.println("   the firstArgument is less than or equal to the thirdArgument");
+                }
         }
 
 
