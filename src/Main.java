@@ -38,6 +38,15 @@ public class Main {
                     default:
                         System.out.println("   second argument was not one, two, or three");
                 }
+
+            /* loops on the second argument, which is a string */
+                int index = 0;
+                String second_argument = args[1];
+                System.out.println(" * While loop on second argument, which is a string.");
+                while( index < second_argument.length() ) {
+                    System.out.println("   Char at " + index + " is " + second_argument.charAt(index));
+                    index++;
+                }
         }
 
 
