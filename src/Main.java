@@ -47,6 +47,15 @@ public class Main {
                     System.out.println("   Char at " + index + " is " + second_argument.charAt(index));
                     index++;
                 }
+
+            /* Adds and subtracts on one of the arguments */
+                int firstArgumentPlus20 = firstArgument + 20;
+                System.out.println(" * Adds and subtracts on first argument.");
+                System.out.println("   the new value of firstArgument plus 20 is: " + firstArgumentPlus20);
+                int firstArgumentMinus20 = firstArgument - 20;
+                System.out.println("   the new value of firstArgument minus 20 is: " + firstArgumentMinus20);
+
+
         }
 
 
