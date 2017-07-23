@@ -55,7 +55,10 @@ public class Main {
                 int firstArgumentMinus20 = firstArgument - 20;
                 System.out.println("   the new value of firstArgument minus 20 is: " + firstArgumentMinus20);
 
-
+            /* Use modulus on the first argument */
+                int firstArgMod10 = firstArgument % 10;
+                System.out.println(" * Modulus 10 on first argument.");
+                System.out.println("   " + firstArgument + " mod 10 is: " + firstArgMod10);
         }
 
 
